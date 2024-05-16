@@ -21,3 +21,7 @@ header {
     width: 40px;
 }
 .name {font-size: 32px;}
+
+#nav-items {
+    text-decoration: none;
+}
