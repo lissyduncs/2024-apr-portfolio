@@ -1,0 +1,23 @@
+:root {
+--primary-color: 7B4779;
+--secondary-color: C9AFD3
+}
+
+
+    }
+body {
+    margin: 0;
+}
+
+header { 
+    background-color: 7B4779;
+    text-align: center;
+    padding: 16px;
+
+}
+
+.logo-name a img {
+    height: 40px;
+    width: 40px;
+}
+.name {font-size: 32px;}
