@@ -4,9 +4,18 @@ main {
     justify-content: center;
     gap: 32px;
 }
+article {
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
 
+
+}
 .interests-image {
     width: 200px;
+    display: flex;
 }
 body {
     margin: 0;
@@ -17,6 +26,7 @@ body {
     color: rgb(5, 63, 94);
     background-color: rgb(134, 205, 212);
 }
+
 
 header { 
     background-color:rgb(71, 125, 130);
