@@ -17,3 +17,6 @@ Home page displays
 
 ## Interests
 This page shows the interests with image and titles onf the images
+
+### Skills
+Uses  CSS grid and shares skills
