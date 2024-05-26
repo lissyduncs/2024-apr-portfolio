@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio</title>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
     <!-- FontAwesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="https://coderacademy.edu.au/images/footerLogo.png">
@@ -25,15 +25,41 @@
             </p>
         </div>
         <nav id="nav-items">
-            <a href="#">Home</a>
+            <a href="../index.html">Home</a>
             <a href="./pages/about.html">About</a>
             <a href="./pages/blogs.html">Blogs</a>
             <a href="./pages/work.html">Work</a>
-            <a href="./pages/contact.html"> Contact</a>
+            <a href="#"> Contact</a>
         </nav>
 
     </header>
     <main>
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-elements">
+                <label>Name:</label>
+                <input type="text" class="form-input">
+            </div>
+            <div class="form-elements">
+                <label>Email:</label>
+                <input type="text" class="form-input">
+            </div>
+            <div class="form-elements">
+                <label>Subject:</label>
+                <input type="text" class="form-input">
+            </div>
+            <div class="form-elements">
+                <label>Message:</label>
+                <textarea 
+                rows="6"
+                class="form-input
+                form-textarea">
+            </textarea>
+            </div>
+            <div class="btn-div">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
 
     </main>
     <footer>
