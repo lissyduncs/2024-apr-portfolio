@@ -13,7 +13,7 @@ body {
 }
 
 header { 
-    background-color:rgb(26, 78, 78);
+    background-color:rgb(65, 125, 125);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 16px;
@@ -47,12 +47,14 @@ color: rgb(112, 188, 192);
 .name {font-size: 64px;
 color: rgb(158, 216, 245);}
 
-#nav-items a {
+/*#nav-items a {
     text-decoration: none;
     ;
     display: flex;
     justify-content: space-around;
     color: rgb(177, 220, 248);
+    border: 2px;
+    border-color: black;
     
 
 }
@@ -67,3 +69,31 @@ color: rgb(158, 216, 245);}
     margin: 5px 0;
 
 }
+/* style the top navigation */
+.topnav {
+    background-color: rgb(5, 88, 94);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: rgb(142, 210, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #b0e4f0;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(142, 210, 246);
+    color: rgb(5, 63, 94);
+  }
