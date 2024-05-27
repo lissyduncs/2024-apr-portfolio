@@ -1,8 +1,79 @@
+:root {
+    --primary-color: 7B4779;
+    --secondary-color: C9AFD3
+    }
+    
+    body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: rgb(142, 210, 246);
+    }
+    
+    header { 
+        background-color:rgb(71, 125, 130);
+        text-align: center;
+        padding: 16px;
+        color: rgb(142, 210, 246);
+    
+    }
+    .coder-text {
+        font-size: medium;
+    }
+    footer{
+        background-color: rgb(26, 78, 78);
+        justify-content: space-around;
+       text-align: center;
+       padding: 16px;
+    }
+    .social-media {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social-media a i {font-size: 24px;
+    color: rgb(62, 123, 235);
+    }
+    
+    .logo-name a img {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .name {font-size: 64px;
+    color: rgb(158, 216, 245);}
+    
+    #nav-items a {
+        text-decoration: none;
+        ;
+        display: flex;
+        justify-content: space-around;
+        color: rgb(177, 220, 248);
+        
+    
+    }
+    .nav-items{
+        color: rgb(148, 198, 241);
+    }
+    
+    .info {
+        color: blueviolet;
+    }
+    .info p {
+        margin: 5px 0;
+    
+    }
+
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 24px;
+    color: rgb(14, 41, 55);
+    background-color: rgb(152, 192, 194);
 }
 .form-elements{
 
@@ -13,11 +84,12 @@ margin-bottom: 24px;
 
 .form-elements label{
     font-size: 16px;
+    color: darkslategrey;
 }
 
 .form-input{
-    border: 1px solid var(--primary-color);
-    outline: none;
+    border: 2px solid color(blue red green blue);
+    outline: invert;
     border: 4px;
     font-size: 16px;
    
@@ -31,7 +103,7 @@ margin-bottom: 24px;
     resize: none;
 }
 .form-input:focus{
-    box-shadow: box-shadow: 4px -5px 9px -3px rgba(0,0,0,0.75);
+    box-shadow: box-shadow; 4px -5px 9px -3px rgba(0,0,0,0.75);
     ;
 }
 .btn-div{
@@ -39,7 +111,7 @@ margin-bottom: 24px;
 }
 #submit {
     height: 40px;
-    background-color: cyan;
+    background-color: rgb(121, 181, 205);
     border: none;
     border-radius: 4px;
     min-width: 120px;
@@ -48,5 +120,6 @@ margin-bottom: 24px;
 }
 #submit:hover {
     cursor:pointer;
-    background-color: aquamarine;
+    background-color: rgb(185, 221, 240);
+    
 }
