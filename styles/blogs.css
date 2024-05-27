@@ -18,6 +18,8 @@ article {
     width: 100px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 body {
     margin: 0;
@@ -31,11 +33,12 @@ body {
 
 
 header { 
-    background-color:rgb(71, 125, 130);
+    background-color:rgb(26, 78, 78);
     text-align: center;
     padding: 16px;
     color: rgb(4, 51, 93);
     font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -61,5 +64,5 @@ footer{
     justify-content: space-evenly;
 }
 .social-media a i {font-size: 24px;
-color: rgb(62, 123, 235);
+color: rgb(112, 188, 192);
 }

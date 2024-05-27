@@ -13,8 +13,9 @@ body {
 }
 
 header { 
-    background-color:rgb(71, 125, 130);
+    background-color:rgb(26, 78, 78);
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 16px;
     color: rgb(142, 210, 246);
 
@@ -33,7 +34,7 @@ footer{
     justify-content: space-evenly;
 }
 .social-media a i {font-size: 24px;
-color: rgb(62, 123, 235);
+color: rgb(112, 188, 192);
 }
 
 .logo-name a img {
