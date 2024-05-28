@@ -1,0 +1,124 @@
+.container {
+    border: 2px solid #000;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(152, 192, 194);
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+
+main {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    gap: 32px;
+}
+article {
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+
+
+}
+
+.blogs-image {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(5, 63, 94);
+    background-color: rgb(134, 205, 212);
+}
+
+
+header { 
+    background-color:rgb(26, 78, 78);
+    text-align: center;
+    padding: 6px;
+    color: rgb(142, 210, 246);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#nav-items a {
+    text-decoration: none;
+    ;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(154, 184, 205);
+    font-size: 16px;
+}
+.nav-items{
+    color: rgb(148, 198, 241);
+}
+footer{
+    background-color: rgb(26, 78, 78);
+    justify-content: space-around;
+   text-align: center;
+   padding: 16px;
+}
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-media a i {font-size: 24px;
+color: rgb(112, 188, 192);
+
+}
+h3{
+    font-size: 30px;
+}
+h4 {
+    font-size: 20px;
+    text-align: stacenterrt;
+}
+
+
+/* style the top navigation */
+.topnav {
+    background-color: rgb(5, 88, 94);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: rgb(142, 210, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #b0e4f0;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(142, 210, 246);
+    color: rgb(5, 63, 94);
+  }

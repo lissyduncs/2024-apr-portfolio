@@ -48,19 +48,6 @@
     .name {font-size: 64px;
     color: rgb(158, 216, 245);}
     
-    #nav-items a {
-        text-decoration: none;
-        ;
-        display: flex;
-        justify-content: space-around;
-        color: rgb(112, 188, 192);
-        
-    
-    }
-    .nav-items{
-        color: rgb(148, 198, 241);
-        
-    }
     
     .info {
         color: blueviolet;
