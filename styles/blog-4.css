@@ -1,3 +1,5 @@
+  /* create a container around blog post */
+
 .container {
     border: 2px solid #000;
     padding: 20px;
@@ -7,6 +9,7 @@
     background-color: rgb(152, 192, 194);
    
 }
+/*style the image inside*/
 
 img {
     max-width: 100%;
@@ -15,7 +18,7 @@ img {
     
 }
 
-
+/*layout of main*/
 main {
     display: flex;
     flex-wrap: flex;
@@ -29,7 +32,7 @@ article {
     text-align: center;
     margin: 20px 0;
 
-
+/*style the image to fit*/
 }
 
 .blogs-image {
@@ -52,6 +55,7 @@ body {
 
 header { 
     background-color:rgb(26, 78, 78);
+
     text-align: center;
     padding: 6px;
     color: rgb(142, 210, 246);
@@ -60,17 +64,9 @@ header {
 
 }
 
-#nav-items a {
-    text-decoration: none;
-    ;
-    display: flex;
-    justify-content: space-around;
-    color: rgb(154, 184, 205);
-    font-size: 16px;
-}
-.nav-items{
-    color: rgb(148, 198, 241);
-}
+
+/*style the footer to be a different colour and include the social media*/
+
 footer{
     background-color: rgb(26, 78, 78);
     justify-content: space-around;
@@ -108,6 +104,8 @@ h4 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border: 10px;
+    border-radius: 10px 10px 10px 10px;
     
   }
   
