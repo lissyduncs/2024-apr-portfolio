@@ -96,7 +96,7 @@ h4 {
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: inline-end;
     color: rgb(142, 210, 246);
     text-align: center;
     padding: 14px 16px;
