@@ -2,7 +2,38 @@
     --primary-color: 7B4779;
     --secondary-color: C9AFD3
     }
+   
+    /* style the top navigation */
+.topnav {
     
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: rgb(142, 210, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 10px;
+    border-radius: 10px 10px 10px 10px;
+    
+  
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b0e4f0;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(142, 210, 246);
+    color: rgb(5, 63, 94);}
+
+     /*set the body styling*/
     body {
         margin: 0;
         min-height: 100vh;
@@ -11,29 +42,22 @@
         justify-content: space-between;
         color: rgb(142, 210, 246);
         background-color: rgb(26, 78, 78);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+    /* make the header fit with the rest of the site*/
     header { 
         background-color:rgb(26, 78, 78);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
         padding: 16px;
         color: rgb(142, 210, 246);
+        margin-bottom: 24px;
     
     }
     .coder-text {
         font-size: medium;
     }
-    footer{
-        background-color: rgb(26, 78, 78);
-        justify-content: space-around;
-       text-align: center;
-       padding: 16px;
-    }
-    .social-media {
-        display: flex;
-        justify-content: space-evenly;
-    }
+   
     .social-media a i {font-size: 24px;
     color: rgb(112, 188, 192);
     }
@@ -65,11 +89,17 @@ main{
     color: rgb(14, 41, 55);
     background-color: rgb(152, 192, 194);
 }
+
+/*style the form layout*/
+
 .form-elements{
 
 display: flex;
 flex-direction: column;
 margin-bottom: 24px;
+margin-top: ;
+
+
 }
 
 .form-elements label{
@@ -82,6 +112,8 @@ margin-bottom: 24px;
     outline: invert;
     border: 4px;
     font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(213, 238, 249);
    
 }
 
@@ -91,6 +123,7 @@ margin-bottom: 24px;
 
 .form-textarea{
     resize: none;
+    
 }
 .form-input:focus{
     box-shadow: box-shadow; 4px -5px 9px -3px rgba(0,0,0,0.75);
@@ -101,43 +134,56 @@ margin-bottom: 24px;
 }
 #submit {
     height: 40px;
-    background-color: rgb(121, 181, 205);
+    background-color: rgb(138, 206, 234);
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     min-width: 120px;
     font-size: 20px;
-    color: black
+    color: black;
+    margin-bottom: 24px;
 }
 #submit:hover {
     cursor:pointer;
     background-color: rgb(185, 221, 240);
     
 }
-/* style the top navigation */
-.topnav {
-    background-color: rgb(5, 88, 94);
-    overflow: hidden;
+
+   /* make the footer pop*/
+   footer{
+    background-color: rgb(26, 78, 78);
+    justify-content: space-around;
+   text-align: center;
+   padding: 16px;
+
+   /*style the social media icons*/
+}
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+  /* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+    body {
+      font-size: 16px;
+      width: 80%;
+      margin: auto;
+    }
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: rgb(142, 210, 246);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    
+  /* styles for tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 14px;
+      width: 90%;
+      margin: auto;
+    }
   }
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #b0e4f0;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: rgb(142, 210, 246);
-    color: rgb(5, 63, 94);
+  /* styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+    }
   }
