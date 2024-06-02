@@ -141,11 +141,70 @@ body {
     }
   }
   
-  /* styles for mobile devices */
-  @media only screen and (max-width: 767px) {
+ /* styles for mobile devices */
+  @media only screen and (max-width: 800px) {
+    header { 
+      background-color:rgb(26, 78, 78);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      padding: 66px;
+      color: rgb(142, 210, 246);
+      
+  
+  }
     body {
-      font-size: 12px;
+      font-size: 10px;
       width: 100%;
       margin: 0;
+    }
+    .container{
+        width: 18%;
+        margin: 0; /* Center the container */
+        padding: 18px;
+        
+    }
+    .h2{ font-size: 65%;
+      width: 10%
+    ;}
+      /* style the top navigation */
+  .topnav {
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: rgb(142, 210, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    border: 10px;
+    border-radius: 10px 10px 10px 10px;
+    
+  
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b0e4f0;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(142, 210, 246);
+    color: rgb(5, 63, 94);}
+     /* make the header fit with the rest of the site*/
+header { 
+        background-color:rgb(26, 78, 78);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 22px;
+        padding: 16px;
+        color: rgb(142, 210, 246);
+        margin-bottom: 24px;
+    
     }
   }
